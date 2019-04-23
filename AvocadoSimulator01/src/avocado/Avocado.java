@@ -11,7 +11,7 @@ package avocado;
  */
 public class Avocado {
 	private String color;
-	enum enumCondition {fresh, ok, squishy, useless};
+	public enum enumCondition {fresh, ok, squishy, useless};
 	private enumCondition condition;
 	private int weightInGrams;
 	public String getColor() {
